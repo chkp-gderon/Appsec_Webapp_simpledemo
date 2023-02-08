@@ -5,18 +5,6 @@ variable "location" {
   type = string
 }
 
-//********************** WebApp Variables **************************//
-
-variable "resource_group_name_webapp" {
-  description = "Azure Resource Group name to build into"
-  type = string
-}
-
-variable "webapp_name" {
-  description = "WebApp name, this should be something really unique since is used also for the URL of the WebApp"
-  type = string
-}
-
 //********************** InfNextGW Instances Variables **************************//
 
 variable "resource_group_name_infnext" {
@@ -26,7 +14,7 @@ variable "resource_group_name_infnext" {
 
 variable "admin_password" {
   description = "Administrator password of deployed Virtual Macine. The password must meet the complexity requirements of Azure"
-  default = "xxxxxxx"
+  default = ""
 }
 
 variable vmsize {
@@ -36,5 +24,5 @@ variable vmsize {
 
 variable waaptoken {
     description = "token from the Check Point Portal"
-    default = "xxxxxxxxxxxxxx"
+    default = ""
 }

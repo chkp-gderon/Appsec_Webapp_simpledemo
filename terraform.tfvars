@@ -1,8 +1,6 @@
 //#PLEASE reffer to the README.md for accepted values FOR THE VARIABELS BELOW
-location                        = "East US 2"                                                                     # "West US"
-resource_group_name_webapp      = "webapp-RG"                                                                     # "webapp-RG"
-webapp_name                     = "webapp-juice-xxxxxxxxx"                                                        # "webapp-juice-<myname>"
-resource_group_name_infnext     = "infnext-RG"                                                                    # "infnext-RG"
-admin_password                  = "xxxxxxxxxx"                                                                    # "@bc1234567890"
-vmsize                          = "Standard_DS2_v2"                                                               # "put a valid VMSIZE"
-waaptoken                       = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"                                          # "cp-super-fancy-token"
+location                        = "West Central US"
+resource_group_name_infnext     = "rg-appsec-gateway"
+admin_password                  = "rdOhq6vEkEon9W2AyPsI"
+vmsize                          = "Standard_DS2_v2"
+waaptoken                       = "cp-297ee3f4-91cd-4e24-aa86-00411ffaadda456ab18f-c879-4d41-8acf-75058f8990fc"
